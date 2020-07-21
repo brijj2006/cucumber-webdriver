@@ -3,12 +3,12 @@
  
 ### Tech-Specs
 ```
-Java                                 #programming language
-Selenium/WebDriver                   #UI automation API
-Maven                                #build and dependency management 
-Cucumber                             #BDD framework - test runner/reports
-Spring Framework/Page Object Model   #dependecy injection/design pattern
-Log4j                                #logging 
+Java                                   #programming language
+Selenium/WebDriver                     #UI automation API
+Maven                                  #build and dependency management 
+Cucumber                               #BDD framework - test runner/reports
+Spring Framework/Page Object Model     #dependecy injection/design pattern
+Log4j                                  #logging 
 ```
 
 ### Framework Structure  
@@ -32,10 +32,10 @@ glue/*.java     #step definition classes
 
 **Project configuration files**  
 ```
-config.properties         #application config 
-applicationContext.xml    #spring config 
-Cucumber.xml              #spring config 
-log4j.properties          #log config
+config.properties          #application config 
+applicationContext.xml     #spring config 
+Cucumber.xml               #spring config 
+log4j.properties           #log config
 ```
 
 **Test Specs**  
@@ -57,7 +57,7 @@ right click on RunTest > Run ‘RunTest’
 
 **Framework Sanpshot**  
 
-![image](https://user-images.githubusercontent.com/50976445/88057029-0fdd9680-cb94-11ea-976a-5c628d98f623.png)  
+![image](https://user-images.githubusercontent.com/50976445/88057415-a14d0880-cb94-11ea-810a-dbeaed5b87a7.png)  
 
 
 **Test Log**  
