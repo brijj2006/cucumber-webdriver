@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6947644544,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIGlue.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "test google search",
+        "description": "",
+        "id": "google-search;test-google-search",
+        "after": [
+          {
+            "result": {
+              "duration": 167138666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIGlue.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3068826970,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open application",
+            "match": {
+              "location": "UIGlue.openApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3218493843,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search for item \"hello world\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hello world",
+                  "offset": 17
+                }
+              ],
+              "location": "UIGlue.searchForItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73153839,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify element \"All\" is present on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All",
+                  "offset": 16
+                }
+              ],
+              "location": "UIGlue.verifyElementIsPresentOnThePage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@page_setup"
+          },
+          {
+            "line": 3,
+            "name": "@smoke_test"
+          }
+        ]
+      }
+    ],
+    "name": "google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "features/google_search.feature"
+  }
+]
