@@ -55,7 +55,7 @@ log4j-bgp.log                       #test execution log file have the full detai
 right click on RunTest > Run ‘RunTest’
 ```
 
-**Framework Sanpshot**  
+**Framework Snapshot**  
 
 ![image](https://user-images.githubusercontent.com/50976445/88057415-a14d0880-cb94-11ea-810a-dbeaed5b87a7.png)  
 
